@@ -17,13 +17,6 @@ int a = Convert.ToInt32(ferstnum);
 int b = Convert.ToInt32(secondnum);
 int c = Convert.ToInt32(thirdnum);
 
-/* int max = 0;
-if(a > max) max = a;
-if(b > max) max = b;
-if(c > max) max = c; */
-
-//не работает для отрацательных чисел, так как переменная max = 0; -_- 
-
 int max = a;
 if (a==b && b==c && c==a)
     {
@@ -37,9 +30,7 @@ else
     if(c > max) max = c;
     Console.WriteLine($"Максимальное число равно: {max} ");
     }
-//ок, если брать за "max" первую введенную переменную, то вроде работает и на минус. 
-//А если онибудут равны? ок
-// Как недопустить введения пользователем строк? Или просто нажатия интер без ввода? 
+ 
 
 
 
